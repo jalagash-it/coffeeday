@@ -550,7 +550,7 @@
 }
 
 .c-headline__secondary {
-    font-size: 1em;
+    /* font-size: 1em; */
     line-height: 0.9;
     white-space: nowrap;
 }
