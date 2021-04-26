@@ -8,15 +8,13 @@
 #menu-item-1351:hover .mission-text{
 	opacity: 1;
 }
-.menu{
-	color: black;
-}
+
 @media  screen and (max-width: 1000px){
-	.menu{
-		color: white;
-	}
 	.c-menu-toggle__slice{
 		color: black;
+	}
+	.menu{
+		color: white;
 	}
 	
 }
@@ -46,4 +44,9 @@
 .c-headline__secondary {
 	font-size: 40px;
 	
+}
+#nk{
+	width: 100%;
+	background: url(../resized/main-1original.jpg), center no-repeat;
+	background-size: cover;
 }
