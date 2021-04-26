@@ -314,7 +314,8 @@
 
 .wp-block-novablocks-navigation ul.menu a,
 .wp-block-novablocks-navigation .menu > ul a {
-  padding: .75em 0; }
+  padding: .75em 0;
+color: white; }
 
 @media only screen and (min-width: 1000px) {
   .wp-block-novablocks-navigation {
