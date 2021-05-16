@@ -46,12 +46,20 @@
 	#nk{
 	height: auto;
 	}
+	.rut{
+		width: 100px;
+		height: 50px;
+	}
+}
+@media  screen and (max-width: 552px){
+	.rut{
+		width: 100px;
+		height: 50px;
+	}
 }
 .menu-top{
 	padding-top: 95px;
 	padding-bottom: 100px;
-
-
 }
 .menubig{
 	display: grid;
@@ -81,7 +89,49 @@
 }
 #nd{
 	width: 100%;
-	
 	background: url(../resized/main-2original.jpg) 50%/cover no-repeat;
 	background-size: cover;
+}
+#otzov-text{
+    font-size: 30px;
+    padding-top: 25px;
+    text-align: center;
+}
+.otzov-top{
+	padding-bottom: 30px;
+}
+.carousel-indicators .carousel-dots span{
+	width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px;
+}
+
+.carousel-indicators .carousel-dots.active span{
+	background-color: #ff9c02;
+}
+#carousel-doc{
+	position: absolute;
+	bottom: -40px;
+}
+#carousel-pr{
+
+	padding-top: 440px;
+}
+.rut{
+	width: 100px;
+	height: 70px;
+}
+hr{
+	position: relative;
+	top: 19px;
+    border: 0;
+    border-top: 2px solid rgba(0,0,0,.1);
+}
+#content{
+	padding-bottom: 70px;
 }

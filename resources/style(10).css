@@ -846,7 +846,7 @@ iframe {
 img,
 video {
   max-width: 100%;
-  height: auto; }
+  height: 400px; }
 
 img {
   transition: var(--theme-transition);
