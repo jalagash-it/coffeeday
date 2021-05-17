@@ -884,7 +884,7 @@ html:root {
   color: var(--novablocks-block-content-accent-color); }
 
 .novablocks-block__content .wp-block-button.is-style-text .wp-block-button__link {
-  --theme-button-text-color: var(--novablocks-block-content-accent-color);
+  --theme-button-text-color: #ff9c02; 
   --theme-button-hover-text-color: var(--novablocks-block-content-accent-color); }
 
 .wp-block-quote,
